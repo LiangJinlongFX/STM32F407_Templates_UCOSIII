@@ -444,13 +444,12 @@ ARM Macro Assembler    Page 7
   310 00000220         
   311 00000220                 END
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=.\objects\lib_mem_a.d -o.\objects\lib_mem_a.o -IE:\嵌入式文件与
-资料\Keil\workspace\DEMO_UCOSIII\Poject\RTE -I"D:\Program Files\keil\ARM\PACK\A
-RM\CMSIS\4.5.0\CMSIS\Include" -I"D:\Program Files\keil\ARM\PACK\Keil\STM32F4xx_
-DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include" --predefine="__UVISION_VE
-RSION SETA 520" --predefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" --l
-ist=.\listings\lib_mem_a.lst ..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib
-_mem_a.asm
+erwork --depend=.\objects\lib_mem_a.d -o.\objects\lib_mem_a.o -I.\RTE\_Target_1
+ -I"D:\Program Files\MDK\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include" -I"D:\Program 
+Files\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\
+Include" --predefine="__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 1" --
+predefine="STM32F407xx SETA 1" --list=.\listings\lib_mem_a.lst ..\UCOSIII\uC-LI
+B\Ports\ARM-Cortex-M4\RealView\lib_mem_a.asm
 
 
 

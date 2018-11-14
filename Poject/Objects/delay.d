@@ -3,7 +3,7 @@
 .\objects\delay.o: ..\Common\sys.h
 .\objects\delay.o: ..\SYSTEM\stm32f4xx.h
 .\objects\delay.o: ..\CORE\core_cm4.h
-.\objects\delay.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\delay.o: ..\CORE\core_cmInstr.h
 .\objects\delay.o: ..\CORE\core_cmFunc.h
 .\objects\delay.o: ..\CORE\core_cmSimd.h
@@ -37,12 +37,12 @@
 .\objects\delay.o: ..\STM32f4_LIB\inc\stm32f4xx_dcmi.h
 .\objects\delay.o: ..\STM32f4_LIB\inc\stm32f4xx_fsmc.h
 .\objects\delay.o: ..\UCOSIII\uCOS_CONFIG\includes.h
-.\objects\delay.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\delay.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\delay.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\ctype.h
-.\objects\delay.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\delay.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\delay.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\math.h
+.\objects\delay.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\delay.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\delay.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\delay.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\delay.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\delay.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\math.h
 .\objects\delay.o: ..\UCOSIII\uCOS-III\Source\os.h
 .\objects\delay.o: ..\UCOSIII\uCOS_CONFIG\os_cfg.h
 .\objects\delay.o: ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h

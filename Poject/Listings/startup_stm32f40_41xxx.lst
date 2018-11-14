@@ -869,12 +869,11 @@ ARM Macro Assembler    Page 14
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=.\objects\startup_stm32f40_41xxx.d -o.\objects\startup_stm32f40
-_41xxx.o -IE:\嵌入式文件与资料\Keil\workspace\DEMO_UCOSIII\Poject\RTE -I"D:\Pro
-gram Files\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include" -I"D:\Program Files\kei
-l\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"
- --predefine="__UVISION_VERSION SETA 520" --predefine="_RTE_ SETA 1" --predefin
-e="STM32F407xx SETA 1" --list=.\listings\startup_stm32f40_41xxx.lst ..\CORE\sta
-rtup_stm32f40_41xxx.s
+_41xxx.o -I.\RTE\_Target_1 -I"D:\Program Files\MDK\ARM\PACK\ARM\CMSIS\5.2.0\CMS
+IS\Include" -I"D:\Program Files\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\
+CMSIS\Device\ST\STM32F4xx\Include" --predefine="__UVISION_VERSION SETA 525" --p
+redefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" --list=.\listings\star
+tup_stm32f40_41xxx.lst ..\CORE\startup_stm32f40_41xxx.s
 
 
 

@@ -131,7 +131,7 @@
 *********************************************************************************************************
 */
 
-#if 0                                                         /* Configure CPU interrupts disabled time ...           */
+#if 1                                                         /* Configure CPU interrupts disabled time ...           */
 #define  CPU_CFG_INT_DIS_MEAS_EN                                 /* ... measurements feature (see Note #1a).             */
 #endif
 

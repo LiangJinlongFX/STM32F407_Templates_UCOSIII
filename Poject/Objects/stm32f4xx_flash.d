@@ -2,7 +2,7 @@
 .\objects\stm32f4xx_flash.o: ..\STM32f4_LIB\inc\stm32f4xx_flash.h
 .\objects\stm32f4xx_flash.o: ..\SYSTEM\stm32f4xx.h
 .\objects\stm32f4xx_flash.o: ..\CORE\core_cm4.h
-.\objects\stm32f4xx_flash.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f4xx_flash.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f4xx_flash.o: ..\CORE\core_cmInstr.h
 .\objects\stm32f4xx_flash.o: ..\CORE\core_cmFunc.h
 .\objects\stm32f4xx_flash.o: ..\CORE\core_cmSimd.h

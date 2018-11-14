@@ -449,18 +449,18 @@ ARM Macro Assembler    Page 7
   282 00000034         
   283 00000034                 END
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=.\objects\cpu_a.d -o.\objects\cpu_a.o -IE:\嵌入式文件与资料\Kei
-l\workspace\DEMO_UCOSIII\Poject\RTE -I"D:\Program Files\keil\ARM\PACK\ARM\CMSIS
-\4.5.0\CMSIS\Include" -I"D:\Program Files\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.10
-.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include" --predefine="__UVISION_VERSION SE
+erwork --depend=.\objects\cpu_a.d -o.\objects\cpu_a.o -I.\RTE\_Target_1 -I"D:\P
+rogram Files\MDK\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include" -I"D:\Program Files\MD
+K\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"
+ --predefine="__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 1" --predefin
 
 
 
 ARM Macro Assembler    Page 8 
 
 
-TA 520" --predefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" --list=.\li
-stings\cpu_a.lst ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.asm
+e="STM32F407xx SETA 1" --list=.\listings\cpu_a.lst ..\UCOSIII\uC-CPU\ARM-Cortex
+-M4\RealView\cpu_a.asm
 
 
 

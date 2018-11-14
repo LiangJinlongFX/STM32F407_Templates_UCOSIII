@@ -1,4 +1,4 @@
---cpu Cortex-M4.fp
+--cpu=Cortex-M4.fp
 ".\objects\startup_stm32f40_41xxx.o"
 ".\objects\main.o"
 ".\objects\stm32f4xx_it.o"
@@ -80,6 +80,6 @@
 ".\objects\os_cpu_c.o"
 ".\objects\os_app_hooks.o"
 --strict --scatter ".\Objects\project_ucosiii.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\project_ucosiii.map" -o .\Objects\project_ucosiii.axf

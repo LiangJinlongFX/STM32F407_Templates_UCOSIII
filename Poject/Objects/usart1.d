@@ -2,7 +2,7 @@
 .\objects\usart1.o: ..\Common\sys.h
 .\objects\usart1.o: ..\SYSTEM\stm32f4xx.h
 .\objects\usart1.o: ..\CORE\core_cm4.h
-.\objects\usart1.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart1.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\usart1.o: ..\CORE\core_cmInstr.h
 .\objects\usart1.o: ..\CORE\core_cmFunc.h
 .\objects\usart1.o: ..\CORE\core_cmSimd.h
@@ -36,13 +36,13 @@
 .\objects\usart1.o: ..\STM32f4_LIB\inc\stm32f4xx_dcmi.h
 .\objects\usart1.o: ..\STM32f4_LIB\inc\stm32f4xx_fsmc.h
 .\objects\usart1.o: ..\Common\usart1.h
-.\objects\usart1.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\usart1.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\usart1.o: ..\UCOSIII\uCOS_CONFIG\includes.h
-.\objects\usart1.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\string.h
-.\objects\usart1.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\ctype.h
-.\objects\usart1.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\usart1.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\usart1.o: D:\Program Files\keil\ARM\ARMCC\Bin\..\include\math.h
+.\objects\usart1.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usart1.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\usart1.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\usart1.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\usart1.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\math.h
 .\objects\usart1.o: ..\UCOSIII\uCOS-III\Source\os.h
 .\objects\usart1.o: ..\UCOSIII\uCOS_CONFIG\os_cfg.h
 .\objects\usart1.o: ..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
